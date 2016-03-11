@@ -56,4 +56,8 @@ window.addEventListener('load', function() {
 	
 	document.querySelector("#start").addEventListener('click', zagon);
 	
+	var odstraniBarve = function(event) {
+		document.querySelector("#barve").innerHTML = "";
+	}
+	document.querySelector("#odstraniBarve").addEventListener('click', odstraniBarve);
 });
